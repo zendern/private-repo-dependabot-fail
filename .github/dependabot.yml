@@ -3,6 +3,12 @@ updates:
 
   # Maintain dependencies for Gradle
   - package-ecosystem: "gradle"
-    directory: "/"
+    directory: "/gradle-example"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Maven
+  - package-ecosystem: "maven"
+    directory: "/maven-example"
     schedule:
       interval: "daily"

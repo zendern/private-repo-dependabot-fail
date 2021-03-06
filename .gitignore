@@ -84,7 +84,7 @@ dataSources/
 ######################
 # Gradle
 ######################
-.gradle/
+gradle-example/.gradle/
 /build/
 
 ######################
