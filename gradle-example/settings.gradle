@@ -1,7 +1,1 @@
-pluginManagement {
-    repositories {
-        maven { url "https://nexus.noyoucanthaveaccess.net/repository/maven/" }
-    }
-}
-
 rootProject.name = 'dependabot'

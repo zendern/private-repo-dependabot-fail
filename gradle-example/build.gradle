@@ -14,10 +14,6 @@ configurations {
 	}
 }
 
-repositories {
-	maven { url "https://nexus.noyoucanthaveaccess.net/repository/maven/" }
-}
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
